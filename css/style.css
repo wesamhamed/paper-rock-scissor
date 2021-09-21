@@ -1,0 +1,95 @@
+html {
+    font-size: 62.5%;
+    /*10px =16px/10px*/
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit !important;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #8c8cf4;
+}
+
+.container {
+    max-width: 1100px;
+    padding: 2rem;
+    margin: auto;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 5rem;
+    margin-bottom: 8rem;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20rem;
+}
+
+.choices__choice {
+    border: none;
+    background-color: transparent;
+    font-size: 6rem;
+    color: white;
+}
+
+.play-again {
+    display: flex;
+    justify-content: center;
+}
+
+.play-again__button {
+    border: none;
+    width: 200px;
+    height: 60px;
+    background: #009688;
+    color: white;
+    padding: 6px;
+    font-size: 2rem;
+}
+
+.choices__choice {
+    transition: all 0.5s;
+}
+
+.choices__choice:hover {
+    transform: scale(1.2);
+}
+
+.play-again {
+    transition: all 0.5s;
+}
+
+.play-again:hover {
+    transform: scale(0.9);
+}
+
+.player-choice {
+    margin: 1rem;
+    font-size: 5rem;
+    text-align: center;
+    color: chartreuse;
+}
+
+.computer-choice {
+    margin: 1rem;
+    font-size: 5rem;
+    text-align: center;
+    color: #19178d;
+}
+
+.result {
+    margin: 1rem;
+    font-size: 5rem;
+    text-align: center;
+    color: #cddc39;
+}
